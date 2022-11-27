@@ -1,13 +1,13 @@
 const heroElementId = "hero"
 const heroName = "Wizard"
 const heroAvatar = "images/wizard.png"
-const heroHealth = "60"
+const heroHealth = 60
 const heroDiceRoll = 6
 
 const monsterElementId = "monster"
 const monsterName = "Orc"
 const monsterAvatar = "images/orc.png"
-const monsterHealth = "10"
+const monsterHealth = 10
 const monsterDiceRoll = 4
 
 function renderCharacter(elementId, name, avatar, health, diceRoll) {
@@ -22,5 +22,5 @@ function renderCharacter(elementId, name, avatar, health, diceRoll) {
         </div>`
 }
 
-renderCharacter(heroElementId, heroName, heroAvatar, heroHealth, heroDiceRoll)
-renderCharacter(monsterElementId, monsterName, monsterAvatar, monsterHealth, monsterDiceRoll)
+renderCharacter(heroElementId, heroName, heroAvatar, heroHealth, heroDiceRoll);
+renderCharacter(monsterElementId, monsterName, monsterAvatar, monsterHealth, monsterDiceRoll);
